@@ -154,7 +154,7 @@ body {
     width: 100%;
 }
 .cards__name {
-    padding-bottom: 3rem;
+    margin-bottom: 3rem;
     font-style: normal;
     font-weight: bold;
     font-size: 3.5rem;
@@ -187,4 +187,50 @@ body {
     font-weight: normal;
     font-size: 1.5rem;
     color: rgb(32, 33, 75);;
+}
+.cards__line {
+    margin-top: 4rem;
+    max-width: 27rem;
+    height: .2rem;
+    width: 100%;
+    background-color: #292b72;
+}
+/* SUMMARY SECTION */
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+.intro__name {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.4rem;
+    line-height: 130%;
+    color: #1f2153;
+    opacity: 80%;
+    margin-bottom: .3rem;
+}
+.intro__subtitle {
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+    color: #313585;
+    font-size: 1.5rem;
+    
+}
+.intro__text {
+    text-align: start;
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+    color: #313585;
+    font-size: 1.6rem;
+    margin-left: 13rem;
 }
