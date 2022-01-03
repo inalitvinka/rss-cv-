@@ -188,7 +188,7 @@ body {
     font-size: 1.5rem;
     color: rgb(32, 33, 75);;
 }
-.cards__line {
+.line {
     margin-top: 4rem;
     max-width: 27rem;
     height: .2rem;
@@ -233,4 +233,36 @@ body {
     color: #313585;
     font-size: 1.6rem;
     margin-left: 13rem;
+}
+/* SKILLS SECTION */
+.skills {
+    display: flex;
+    justify-content: center;
+    padding: 7rem 5rem;
+    margin-top: 4rem;
+}
+.skills__title,
+.skills__item_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.4rem;
+    line-height: 130%;
+    color: #1f2153;
+    opacity: 80%;
+    margin-bottom: 1.3rem; 
+}
+.skills__item {
+    margin-left: 5rem;
+}
+.skills__list_item {
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+    color: #313585;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.code {
+    color: #313585;
+    font-size: 1.2rem; 
 }
