@@ -58,5 +58,11 @@ describe("Testing function", function() {
 
 ***
 
-
+## Languages
+|  Language  	|  Level 	|
+|:----------:	|:------:	|
+|   English  	|   B1   	|
+|   Polish   	|   B1   	|
+| Belarusian 	| Native 	|
+|   Russian  	| Native 	|
 
