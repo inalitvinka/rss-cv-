@@ -46,5 +46,17 @@ describe("Testing function", function() {
 
 ***
 
+## Training/Courses
+* RS school
+* Course HTML/CSS in [IT SHATLE MINSK](https://it-shatle.by)
+* Self-education 
+
+***
+
+## Experience
+* [Project example](https://github.com/inalitvinka/diplom)
+
+***
+
 
 
