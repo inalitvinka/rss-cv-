@@ -293,3 +293,22 @@ body {
 .education__name_two {
     margin-left: 35rem;
 }
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #171836;
+    padding: 3rem 12rem;
+    max-width: 120rem;
+    width: 100%;
+}
+.footer__link {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: white;
+    opacity: 80%;
+    padding: 2.5rem;
+}
