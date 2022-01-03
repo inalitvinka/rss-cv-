@@ -89,3 +89,33 @@ body {
     padding-right: 10px;
     padding-left: 10px;
 }
+/* HEADER */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #171836;
+    padding: 2rem 12rem;
+    border-radius: 4rem;
+
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav-item + .nav-item {
+    margin-left: 5rem;
+}.nav-link {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    opacity: 80%;
+}
+.active {
+    color: white;
+    opacity: 100%;;
+    font-weight: 500;
+}
