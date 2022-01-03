@@ -266,3 +266,30 @@ body {
     color: #313585;
     font-size: 1.2rem; 
 }
+/* EDUCATION SECTION */
+.education {
+    display: flex;
+    justify-content: center;
+    padding: 7rem 10rem;
+
+}
+.education__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.4rem;
+    line-height: 130%;
+    color: #1f2153;
+    opacity: 80%;
+    margin-bottom: 1.3rem;    
+}
+.education__list_item {
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+    color: #313585;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.education__name_two {
+    margin-left: 35rem;
+}
