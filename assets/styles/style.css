@@ -108,8 +108,7 @@ body {
 .nav-link {
     font-size: 1.5rem;
     line-height: 1.5rem;
-    font-weight: 400;
-    text-decoration: none;
+    font-weight: 500;
     color: white;
     opacity: 80%;
 }
@@ -137,6 +136,7 @@ body {
     width: 100%;
     border-radius: 30rem;
     border: solid .2rem #1f2153;
+    overflow: hidden;
 }
 .hero-title {
     padding-top: 4rem;
@@ -146,4 +146,45 @@ body {
     line-height: 130%;
     color: #FBF7F3;
     opacity: 80%;
+}
+/* CONTACTS SECTION */
+.cards {
+    padding: 2rem 5rem;
+    max-width: 100rem;
+    width: 100%;
+}
+.cards__name {
+    padding-bottom: 3rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 130%;
+    color: #1f2153;
+    opacity: 80%;
+
+}
+.cards__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cards__info + .cards__info {
+    margin-left: 5.5rem;
+}
+.cards__title,
+.cards__text {
+    font-style: normal;
+    line-height: 150%;
+}
+.cards__title {
+    font-style: normal;
+    font-weight: 600;
+    color: #313585;
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+}
+.cards__text{
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: rgb(32, 33, 75);;
 }
