@@ -17,4 +17,16 @@ _I'm an open-minded person. My personal qualities are activity, flexibility, amb
 
 ***
 
+## Skills
+* HTML5
+* PUG/JADE Basics
+* CSS3
+* SCSS
+* BEM methodology
+* Version control: Git, GitHub
+* Figma (for web development)
+* Editors: VSCode
+
+***
+
 
