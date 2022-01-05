@@ -9,139 +9,144 @@
     <link rel="stylesheet" href="assets/styles/normalize.css">
 </head>
 <body>
-<!-- HEADER -->
-<header class="header container">
-    <div class="header-menu">
-        <nav>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Contacts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Summary</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Code</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Languages</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<!-- HERO -->
-<section class="hero container">
-    <div class="hero-img">
-        <img src="assets/images/hero-img.jpg" alt="img" class="hero-pic">
-    </div>
-    <div class="hero-info">
-        <h1 class="hero-title">Ina Litvinka</h1>
-    </div>
-</section>
-<!-- CONTACTS SECTION -->
-<section class="cards container">
-    <h2 class="cards__name">Contacts</h2>
-    <div class="cards__content">
-        <div class="cards__info">
-            <h2 class="cards__title">E-mail:</h2>
-            <p class="cards__text">i_litvinka@gmail.com</p>
+    <!-- HEADER -->
+    <header class="header container">
+        <div class="header-menu">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contacts">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#summary">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#code">Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#languages">Languages</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div class="cards__info">
-            <h2 class="cards__title">Phone:</h2>
-            <p class="cards__text">+375292787133</p>
+    </header>
+    <!-- HERO -->
+    <section class="hero container">
+        <div class="hero-img">
+            <img src="assets/images/hero-img.jpg" alt="img" class="hero-pic">
         </div>
-        <div class="cards__info">
-            <h2 class="cards__title">GitHub</h2>
-            <p class="cards__text"><a href="https://github.com/inalitvinka" class="cards__link">inalitvinka</a></p>
+        <div class="hero-info">
+            <h1 class="hero-title">Ina Litvinka</h1>
         </div>
-        <div class="cards__info">
-            <h2 class="cards__title">Discord nickname:</h2>
-            <p class="cards__text">oxy2309 (@inalitvinka)</p>
+    </section>
+    <!-- CONTACTS SECTION -->
+    <section class="container">
+        <div class="cards">
+            <h2 id="contacts" class="cards__name">Contacts</h2>
+            <div class="cards__content">
+            <div class="cards__info">
+                <h2 class="cards__title">E-mail:</h2>
+                <p class="cards__text">i_litvinka@gmail.com</p>
+            </div>
+            <div class="cards__info">
+                <h2 class="cards__title">Phone:</h2>
+                <p class="cards__text">+375292787133</p>
+            </div>
+            <div class="cards__info">
+                <h2 class="cards__title">GitHub:</h2>
+                <p class="cards__text"><a href="https://github.com/inalitvinka" class="cards__link">inalitvinka</a></p>
+            </div>
+            <div class="cards__info">
+                <h2 class="cards__title">Discord:</h2>
+                <p class="cards__text">oxy2309 (@inalitvinka)</p>
+            </div>
+            <div class="cards__info">
+                <h2 class="cards__title">Location:</h2>
+                <p class="cards__text">Minsk, Belarus</p>
+            </div>
+        </div> 
         </div>
-        <div class="cards__info">
-            <h2 class="cards__title">Location:</h2>
-            <p class="cards__text">Minsk, Belarus</p>
-        </div>
-    </div> 
-    <div class="line"></div> 
-</section>
-<!-- SUMMARY SECTION --> 
-<section class="intro container">
-    <div class="intro__name">
-        <h2 class="intro__title">Summary</h2>
-        <p class="intro__subtitle">What I am all about</p>
-    </div> 
-    <p class="intro__text"><i>I'm an open-minded person. My personal qualities are activity, flexibility, <br>ambition, discipline and self-organization, as well as the ability to work in a team.<br> I like programming and I hope my ability to learn and gain new skills will lead me<br> to become a proficiend Frontend Developer</i></p>  
-</section>
-<!-- SKILLS SECTION -->
-<section class="skills container">
-    <div class="skills__name">
-        <h2 class="skills__title">Skills</h2>
-        <ul class="skills__list">
-            <li class="skills__list_item">HTML5</li>
-            <li class="skills__list_item">PUG/JADE Basics</li>
-            <li class="skills__list_item">CSS3</li>
-            <li class="skills__list_item">SCSS</li>
-            <li class="skills__list_item">BEM methodology</li>
-            <li class="skills__list_item">Version control: Git, GitHub</li>
-            <li class="skills__list_item">Figma (for web development)</li>
-            <li class="skills__list_item">Editors: VSCode</li>
-        </ul>
-    </div>
-    <div class="skills__item">   
-        <h2 class="skills__item_title">Code</h2>
-        <pre>
-            <code class="code">const assert = require("chai").assert;
+        <div class="line"></div> 
+    </section>
+    <!-- SUMMARY SECTION --> 
+    <section class="intro container">
+        <div class="intro__name">
+            <h2 id="summary" class="intro__title">Summary</h2>
+            <p class="intro__subtitle">What I am all about</p>
+        </div> 
+        <p class="intro__text"><i>I'm an open-minded person. My personal qualities are activity, flexibility, <br>ambition, discipline and self-organization, as well as the ability to work in a team.<br> I like programming and I hope my ability to learn and gain new skills will lead me<br> to become a proficiend Frontend Developer</i></p>  
+    </section>
 
-                describe("Testing function", function() {
-                  it("Is it a function?", function() {
-                    assert.strictEqual(typeof greet, "function", 
-                    "greet should be a function");
-                  });
-                  it("Correct return-value?", function() {
-                    assert.strictEqual(greet(), "hello world!");
-                  });
-                });
-            </code>
-        </pre>  
-    </div>
-</section>
-<!-- EDUCATION SECTION -->
-<section class="education container">
-    <div class="education__name">
-        <h2 class="education__title">Education</h2>
-        <ul class="education__list">
-            <li class="education__list_item">RS school</li>
-            <li class="education__list_item">Course HTML/CSS in <br>
-                <a class="education__list_item" href="https://it-shatle.by">IT SHATLE MINSK</a>
-            </li>
-            <li class="education__list_item">Self-education</li>
-        </ul>
-    </div> 
-    <div class="education__name_two">
-        <h2 class="education__title">Languages</h2>
-        <ul class="education__list">
-            <li class="education__list_item">English - B1</li>
-            <li class="education__list_item">Polish - B1</li>
-            <li class="education__list_item">Belarusian - Native</li>
-            <li class="education__list_item">Russian - Native</li>
-        </ul>
-    </div> 
-</section>
-<footer class="footer container">
-    <h2 class="footer__link">©   2022 <a href="https://github.com/inalitvinka" class="footer__link">inalitvinka</a></h2>
-    <div class="footer__logo">
-        <a class="footer-logo" href="https://rs.school/js/"> 
-            <img src="../assets/images/logo.svg" alt="RSS">
-        </a>
-    </div>
+    <!-- SKILLS -->
+    <section class="container">
+        <div class="line"></div> 
+        <div class="skill">
+            <div class="skill__name">
+                <h2 id="skills" class="skill__title">Skills</h2>
+                <ul class="skill__list">
+                    <li class="skill__list_item">HTML5</li>
+                    <li class="skill__list_item">PUG/JADE Basics</li>
+                    <li class="skill__list_item">CSS3, SCSS</li>
+                    <li class="skill__list_item">BEM methodology</li>
+                    <li class="skill__list_item">Version control: Git, GitHub</li>
+                    <li class="skill__list_item">Figma (for web development)</li>
+                    <li class="skill__list_item">Editors: VSCode</li>
+                </ul>
+            </div>
     
+            <div class="skill__name">
+                <h2 id="education" class="skill__title">Education</h2>
+                <ul class="skill__list">
+                    <li class="skill__list_item">RS school</li>
+                    <li class="skill__list_item">Course HTML/CSS in <br>
+                        <a class="skill__list_item" href="https://it-shatle.by">IT SHATLE</a>
+                    </li>
+                    <li class="skill__list_item">Self-education</li>
+                </ul>
+            </div> 
+    
+            <div class="skill__name">
+                <h2 id="languages" class="skill__title">Languages</h2>
+                <ul class="skill__list">
+                    <li class="skill__list_item">English - B1</li>
+                    <li class="skill__list_item">Polish - B1</li>
+                    <li class="skill__list_item">Belarusian - Native</li>
+                    <li class="skill__list_item">Russian - Native</li>
+                </ul>
+            </div> 
+        </div>
+        <div class="line"></div> 
+        <div class="skill__name code">   
+            <h2 id="code" class="skill__title">Code</h2>
+            <pre> 
+                <code class="code_exmpl">
+                    const assert = require("chai").assert;
+
+                        describe("Testing function", function() {
+                            it("Is it a function?", function() {
+                                assert.strictEqual(typeof greet, "function", "greet should be a function");
+                            });
+                            it("Correct return-value?", function() {
+                                assert.strictEqual(greet(), "hello world!");
+                            });
+                        });
+                </code>
+            </pre>  
+        </div>
+    </section>
+    <footer class="footer container">
+        <h2 class="footer__link">©   2022 <a href="https://github.com/inalitvinka" class="footer__link">inalitvinka</a></h2>
+            <div class="footer__logo">
+                <a class="footer-logo" href="https://rs.school/js/"> 
+                    <img src="/assets/images/logo.svg" alt="RSS">
+                </a>
+            </div>   
+    </footer>
 </body>
 </html>

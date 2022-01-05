@@ -102,7 +102,7 @@ body {
     flex-wrap: wrap;
     
 }
-.nav-item + .nav-item {
+.nav-item {
     margin-left: 5rem;
 }
 .nav-link {
@@ -110,11 +110,11 @@ body {
     line-height: 1.5rem;
     font-weight: 500;
     color: white;
-    opacity: 80%;
+    opacity: 70%;
 }
 .active {
     color: white;
-    opacity: 100%;;
+    opacity: 85%;;
     font-weight: 500;
 }
 /* HERO */
@@ -145,7 +145,7 @@ body {
     font-size: 5.5rem;
     line-height: 130%;
     color: #FBF7F3;
-    opacity: 80%;
+    opacity: 90%;
 }
 /* CONTACTS SECTION */
 .cards {
@@ -168,7 +168,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
 }
-.cards__info + .cards__info {
+.cards__info {
     margin-left: 5.5rem;
 }
 .cards__title,
@@ -186,10 +186,13 @@ body {
 .cards__text{
     font-weight: normal;
     font-size: 1.5rem;
-    color: rgb(32, 33, 75);;
+    color: #333472;
+}
+.cards__link {
+    color: #333472;
 }
 .line {
-    margin-top: 4rem;
+    margin: 4rem 0;
     max-width: 27rem;
     height: .2rem;
     width: 100%;
@@ -200,6 +203,7 @@ body {
     display: flex;
     align-items: center;
     padding: 2rem 3rem;
+    margin-bottom: 1rem;
 }
 
 .intro__name {
@@ -234,27 +238,26 @@ body {
     font-size: 1.6rem;
     margin-left: 13rem;
 }
-/* SKILLS SECTION */
-.skills {
+/* SKILLS */
+.skill {
     display: flex;
-    justify-content: center;
-    padding: 7rem 5rem;
-    margin-top: 4rem;
+    padding: 5rem 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
-.skills__title,
-.skills__item_title {
+.skill__name + .skill__name {
+    margin-left: 10rem;
+}
+.skill__title {
     font-style: normal;
     font-weight: bold;
     font-size: 3.4rem;
     line-height: 130%;
     color: #1f2153;
     opacity: 80%;
-    margin-bottom: 1.3rem; 
+    margin-bottom: 1.6rem;
 }
-.skills__item {
-    margin-left: 5rem;
-}
-.skills__list_item {
+.skill__list_item {
     font-style: normal;
     line-height: 150%;
     font-weight: 400;
@@ -263,36 +266,16 @@ body {
     margin-bottom: 1rem;
 }
 .code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.code_exmpl {
     color: #313585;
     font-size: 1.2rem; 
 }
-/* EDUCATION SECTION */
-.education {
-    display: flex;
-    justify-content: center;
-    padding: 7rem 10rem;
 
-}
-.education__title {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 3.4rem;
-    line-height: 130%;
-    color: #1f2153;
-    opacity: 80%;
-    margin-bottom: 1.3rem;    
-}
-.education__list_item {
-    font-style: normal;
-    line-height: 150%;
-    font-weight: 400;
-    color: #313585;
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-}
-.education__name_two {
-    margin-left: 35rem;
-}
 /* FOOTER */
 .footer {
     display: flex;
