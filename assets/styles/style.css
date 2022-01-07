@@ -100,8 +100,13 @@ body {
 .nav {
     display: flex;
     flex-wrap: wrap;
-    
 }
+a:hover, 
+a:focus, 
+a:active {
+    color: #373deb;
+    transform: scale(1.2);
+} 
 .nav-item {
     margin-left: 5rem;
 }
@@ -120,7 +125,7 @@ body {
 /* HERO */
 .hero {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     padding: 2rem 8rem;
@@ -241,6 +246,7 @@ body {
 /* SKILLS */
 .skill {
     display: flex;
+    flex-wrap: wrap;
     padding: 5rem 3rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -265,6 +271,11 @@ body {
     font-size: 1.6rem;
     margin-bottom: 1rem;
 }
+.project {
+    font-size: 2.5rem;
+    margin-top: 3.8rem;
+    margin-bottom: 1.05rem;
+}
 .code {
     display: flex;
     align-items: center;
@@ -286,6 +297,10 @@ body {
     padding: 3rem 12rem;
     max-width: 120rem;
     width: 100%;
+}
+.logo {
+    max-width: 8rem;
+    width: 100%;  
 }
 .footer__link {
     font-size: 1.5rem;
